@@ -1,0 +1,442 @@
+header
+{
+    background-image: url('images/hero-bg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+body
+{
+    background-color: #f5f5f5;
+}
+.navbar-light .navbar-toggler-icon {
+    background-color: white;
+    border-radius: 3px;
+    padding: 20px;
+}
+.navbar{
+    background-color: rgba(0,0,0,0.9);
+    z-index: 999;
+}
+.header .navbar .n {
+    font-size: 18px;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+.navbar-nav li:hover > ul.dropdown-menu{
+    display: block;
+}
+.nav-link{
+    position: relative;
+    overflow: hidden;
+   
+}
+.nav-link::before{
+    content: '';
+    position: absolute;
+    left: -100%;
+    bottom: 0;
+    width: 50%;
+    height:2px;
+    
+    background-color: white;
+    transition: .5s all ease-in-out;
+}
+.nav-link:hover::before{
+    left: 14%;
+}
+.navbar-toggler-icon:hover{
+    display: block;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu >.dropdown-menu{
+   margin-top: -5px;
+   top: 0;
+   right: 100%;
+}
+
+header .home-content
+{
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, .6);
+}
+.container,.card
+{
+    margin-top: 20px;
+}
+.col .card img
+{
+    transition: 1s all ;
+    
+    overflow: hidden;
+}
+.card .card-title:hover
+{
+    color: #0062d3;
+}
+.col .card img:hover 
+{
+   transform: scale(1.1);
+  
+}
+.get-touch span
+{
+    margin-left: 5px;
+}
+ .imgblog{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+.card   .rounded-circle
+{
+    border: 5px #0062d3 solid;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    padding: 30px;  
+    text-align: center;
+   
+}
+
+.card   .rounded-circle:hover
+{
+    background-color: #0062d3;
+    border:none ;
+    color: #ffffff;
+}
+.card-footer img
+{
+    border-radius: 50%
+}
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.test {
+    height: 50vh;
+    background-image: url("images/overlay-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment:fixed ;
+  }
+  .ovelay-blue {
+    height: 100%;
+    width: 100%;
+    background-color: #0077ffa4;
+  }
+  .carousel-caption {
+    position: relative;
+    /* right: 15%; */
+    bottom : 1.25rem;
+    /* left: 15%; */
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    right: auto;
+    left: auto;
+  }
+.footer span
+{
+    color: #0062d3;
+    border: 2px #0062d3 solid;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+section span
+{
+    border: 6px #ffffff solid;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    padding: 20px;  
+    text-align: center;
+    color: #ffffff;
+    border-radius:50% ;
+}
+.overlay
+{
+    background-image: url('images/overlay-bg.jpg');
+    height: 100vh;
+    background-attachment:fixed;
+    background-size: cover;
+}
+.overlay button
+{
+    background-color: #0062d3;
+    border: none;
+}
+section
+{
+    background-image: url('images/counters-bg.jpg');
+    height: 60vh;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.color
+{
+    background-color: rgba(0, 98, 211,.6);  
+    width: 100%;
+    height: 100vh;
+}
+.home-content .animate h2::before{
+    content: '';
+    font-size: 2.5rem;
+     animation: typing 11s infinite ;
+ }
+ 
+ @keyframes typing{
+     0%{
+         content: '';
+     }
+     1%{
+         content: 'D';
+     }
+     2%{
+         content: 'De';
+     }
+     3%{
+         content: 'Des';
+     }
+     4%{
+         content: 'Desi';
+     }
+     5%{
+         content: 'Desig';
+     }
+     6%{
+         content: 'Design';
+     }
+     7%{
+         content: 'Designe';
+     }
+     8%{
+         content: 'Designer';
+     }
+     9%{
+         content: 'Designe';
+     }
+     10%{
+         content: 'Design';
+     }
+     11%{
+         content: 'Desig';
+     }
+     12%{
+         content: 'Desi';
+     }
+     15%{
+         content: 'Des';
+     }
+     16%{
+         content: 'De';
+     }
+     17%{
+         content: 'Dev';
+     }
+     18%{
+         content: 'Deve';
+     }
+     19%{
+         content: 'Devel';
+     }
+     20%{
+         content: 'Develo';
+     }
+     21%{
+         content: 'Develop';
+     }
+     22%{
+         content: 'Developer';
+     }
+     24%{
+         content: 'Develope';
+     }
+     26%{
+         content: 'Develop';
+     }
+     28%{
+         content: 'Develo';
+     }
+     30%{
+         content: 'Devel';
+     }
+     32%{
+         content: 'Deve';
+     }
+     34%{
+         content: 'Dev';
+     }
+     36%{
+         content: 'De';
+     }
+     38%{
+         content: 'D';
+     }
+     40%{
+         content: '';
+     }
+     41%{
+         content: 'F';
+     }
+     42%{
+         content: 'Fr';
+     }
+     43%{
+         content: 'Fre';
+     }
+     45%{
+         content: 'Free';
+     }
+     46%{
+         content: 'Freel';
+     }
+     47%{
+         content: 'Freela';
+     }
+     48%{
+         content: 'Freelan';
+     }
+     49%{
+         content: 'Freelanc';
+     }
+     50%{
+         content: 'Freelance';
+     }
+     51%{
+         content: 'Freelancer';
+     }
+     53%{
+         content: 'Freelance';
+     }
+     55%{
+         content: 'Freelanc';
+     }
+     57%{
+         content: 'Freelan';
+     }
+     59%{
+         content: 'Freela';
+     }
+     61%{
+         content: 'Freel';
+     }
+     63%{
+         content: 'Free';
+     }
+     65%{
+         content: 'Fre';
+     }
+     67%{
+         content: 'Fr';
+     }
+     69%{
+         content: 'F';
+     }
+     70%{
+         content: '';
+     }
+     71%{
+         content: 'P';
+     }
+     72%{
+         content: 'Ph';
+     }
+     73%{
+         content: 'Pho';
+     }
+     74%{
+         content: 'Phot';
+     }
+     75%{
+         content: 'Photo';
+     }
+     76%{
+         content: 'Photog';
+     }
+     77%{
+         content: 'Photogr';
+     }
+     78%{
+         content: 'Photogra';
+     }
+     79%{
+         content: 'Photograp';
+     }
+     80%{
+         content: 'Photograph';
+     }
+     81%{
+         content: 'Photographe';
+     }
+     82%{
+         content: 'Photographer';
+     }
+     85%{
+         content: 'Photographe';
+     }
+     86%{
+         content: 'Photograph';
+     }
+     87%{
+         content: 'Photograp';
+     }
+     88%{
+         content: 'Photogra';
+     }
+     89%{
+         content: 'Photogr';
+     }
+     90%{
+         content: 'Photog';
+     }
+     92%{
+         content: 'Photo';
+     }
+     94%{
+         content: 'Phot';
+     }
+     96%{
+         content: 'Pho';
+     }
+     98%{
+         content: 'Ph';
+     }
+     99%{
+         content: 'P';
+     }
+     
+     100%{
+         content: '';
+     }
+ }
+.card
+{
+    overflow: hidden;
+}
+.bg-blue
+{
+    height: 60vh;
+    background-color: rgba(0, 98, 211,.6); 
+    width: 100%; 
+}
+
+footer
+{
+    padding: 25px 0;
+    background-color: #0062d3;
+}
+
+
+
+
